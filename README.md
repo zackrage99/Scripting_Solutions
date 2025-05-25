@@ -30,3 +30,4 @@ A collection of scripts and automation tools to solve security challenges, CTF p
 1. Clone the repo:
    ```bash
    git clone https://github.com/<your-username>/scripting_solutions.git
+2. Add your own tracking ID and Session in the file before running.
