@@ -15,8 +15,8 @@ def sqli_password(url):
     password_extracted = ""
     
     # Update these with your actual cookies
-    TRACKING_ID = "MWYJLlVjGZKNTwdL"  # Replace with your TrackingId
-    SESSION_COOKIE = "X6McxpkvkCwMdGk4OLGZKlV7hvv313Wh"  # Replace with your session cookie
+    TRACKING_ID = " "  # Replace with your TrackingId
+    SESSION_COOKIE = " "  # Replace with your session cookie
     
     print("\n[+] Starting password extraction...")
     
